@@ -3,7 +3,8 @@ import Link from "next/link";
 
 const links = [
     { href: '/', name: 'Home' },
-    { href: '/journal', name: 'Journals' }
+    { href: '/journal', name: 'Journals' },
+    { href: '/history', name: 'History' }
 ]
 
 const DashboardLayout = ({ children }) => {
